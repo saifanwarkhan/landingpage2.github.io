@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>log In</title>
+
+	<style type="text/css">
+	body{
+
+		background:url("loginbg.jpg");
+		background-size:cover;
+		background-repeat: no-repeat;
+
+		
+
+	}
+
+.log{
+
+background-color: black;
+height: 550px;
+width: 450px;
+margin-top: 300px;
+margin-left: 350px;
+margin-right: 350px;
+opacity: 0.8;
+text-align: center;
+margin-bottom: 50px;
+border-radius: 20px;
+
+
+}
+.h{
+
+	color: white;
+	text-align: center;
+	position: absolute;
+	margin-top: 80px;
+	left:515px;
+	
+
+
+	
+
+}
+.in{
+
+
+	border-radius: 15px;
+	text-align: center;
+	width: 250px;
+	height: 30px;
+	margin-top: 50px;
+	border: 2px solid white;
+
+}
+.in2{
+	border-radius: 15px;
+	text-align: center;
+	width: 250px;
+	height: 30px;
+	border: 2px solid white;
+
+
+}
+.in:hover
+{
+
+	background-color: #ff6347 ;
+}
+.in2:hover
+{
+
+	background-color: #ff6347;
+}
+
+.in3
+{
+
+	border-radius: 35px;
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	border: 2px solid white;
+	margin-top: 50px;
+
+}
+.img{
+
+	width: 150px;
+	margin-top: 0px;
+
+}
+
+.a{
+
+
+	float: left;
+	margin-top: 20px; 
+	color: white;
+	margin-left: 5px;
+}
+
+
+	</style>
+	<!--
+	<script type="text/javascript">
+		function valid(){
+
+	var username=document.getElementById('username').value;
+	var password=document.getElementById('password').value;
+
+	if(username==""){
+
+
+		alert("Enter name");
+		return false;
+	}
+	if(username.length>30||username.length<3)
+	{
+		alert("Enter valid name");
+		return false;
+
+	}
+	if(password==""){
+
+
+		alert("Enter Password");
+		return false;
+	}
+	if(password.length<8)
+	{
+		alert("Enter valid Password");
+		return false;
+
+	}
+	else{
+
+
+		document.write("Welcome"+username);
+		document.write("<br>You are Successfully Register");
+		return true;
+	}
+
+		}
+	</script>
+-->
+</head>
+<body>
+<div class="log">
+
+<img src="log.png" class="img">
+<center>
+<input type="text" class="in" placeholder="Username" id="username">
+<br>
+<br>
+<br>
+<input type="password" class="in2" placeholder="Password" id="password">	
+<br>
+<a href="#"><input type="submit"  value="Login" class="in3"></a>
+</center>
+<p><a href="#" class="a">Forget Password</a></p>
+<br>
+
+</div>
+
+</body>
+</html>
